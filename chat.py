@@ -1,4 +1,5 @@
 from datetime import datetime
+#_____this is spy class____
 class Spy:
     def __init__(self, name, salutation, age, rating):
         self.name = name
@@ -16,6 +17,7 @@ class ChatMessage:
         self.sent_by_me = sent_by_me
 
 spy = Spy('NITISH', 'Mr.', 24, 4.7)
+#----friends list-------
 
 friend_one = Spy('DANISH', 'Mr.', 27, 4.9)
 friend_two = Spy('AKSHAY', 'Ms.', 21, 4.39)
